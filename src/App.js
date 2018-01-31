@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // Access components individually for smaller build files (RECOMMENDED)
-import Appbar from 'muicss/lib/react/appbar';
-import Container from 'muicss/lib/react/container';
-import Content from './Content';
-import logo from './logo.svg';
-import './App.css';
+import Appbar from "muicss/lib/react/appbar";
+import Container from "muicss/lib/react/container";
+import Content from "./Content";
+import logo from "./logo.svg";
+import "./App.css";
 
 const App = () => (
   <div>
