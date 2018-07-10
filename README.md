@@ -1,3 +1,14 @@
+Bootstrap on top of [Create React App](https://github.com/facebookincubator/create-react-app) bootstrap.
+**Goal** Get up and running quickly using [Visual Studio Code](https://github.com/Microsoft/vscode),create react app, and all the vastly useful tooling.
+Quickly get started with opinionated TDD, Linting, prettifying, and more.
+
+## Quick Start
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
