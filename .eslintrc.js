@@ -7,24 +7,26 @@
 // This config brings prettier for formatting and eslint for best practices
 //  together in harmony. (ref: https://stackoverflow.com/q/46201647/1771644)
 module.exports = {
-  parser: 'babel-eslint',
+  parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module',
+    sourceType: "module",
     ecmaFeatures: {
       jsx: true,
       modules: true,
-      experimentalObjectRestSpread: true,
-    },
+      experimentalObjectRestSpread: true
+    }
   },
-  extends: ['airbnb', 'plugin:prettier/recommended'],
-  plugins: ['react', 'jsx-a11y', 'flowtype', 'import', 'prettier'],
+  extends: ["airbnb", "plugin:prettier/recommended"],
+  plugins: ["react", "jsx-a11y", "flowtype", "import", "prettier"],
   env: {
     browser: true,
     node: true,
-    jest: true,
+    jest: true
   },
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-  },
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "prettier/prettier": ["error", "fb"]
+  }
 };
+
